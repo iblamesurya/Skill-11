@@ -1,16 +1,19 @@
-# React + Vite
+# @babel/code-frame
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Generate errors that contain a code frame that point to source locations.
 
-Currently, two official plugins are available:
+See our website [@babel/code-frame](https://babeljs.io/docs/babel-code-frame) for more information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Install
 
-## React Compiler
+Using npm:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```sh
+npm install --save-dev @babel/code-frame
+```
 
-## Expanding the ESLint configuration
+or using yarn:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```sh
+yarn add @babel/code-frame --dev
+```
