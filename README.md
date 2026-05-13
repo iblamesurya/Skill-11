@@ -16,4 +16,4 @@ or using yarn:
 
 ```sh
 yarn add @babel/code-frame --dev
-```
+.
